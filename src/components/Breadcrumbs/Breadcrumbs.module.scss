@@ -1,0 +1,13 @@
+.breadcrumb {
+  padding-top: 2rem;
+
+  &-item {
+    font-weight: bold;
+    color: var(--text-secondary);
+    &:not(:last-child) {
+      ::after {
+        content: " / ";
+      }
+    }
+  }
+}

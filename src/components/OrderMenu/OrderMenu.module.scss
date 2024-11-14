@@ -1,0 +1,13 @@
+.order-menu {
+  padding-top: 2rem;
+
+  &__title {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+  }
+
+  &__content {
+    min-height: 300px;
+  }
+}

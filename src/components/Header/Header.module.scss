@@ -1,0 +1,33 @@
+.header {
+  width: 100%;
+  padding: 0.5rem;
+
+  background: #f5f5dc;
+  box-shadow: -5px 10px 12px rgba(0, 0, 0, 0.15);
+  border-radius: 8px;
+
+  &-nav {
+    &__list {
+      display: flex;
+      align-items: center;
+      gap: 4rem;
+      list-style: none;
+
+      li {
+        font-size: 0.825rem;
+        color: var(--text-secondary);
+
+        a {
+          display: flex;
+          gap: 0.5rem;
+          text-decoration: none;
+          color: currentColor;
+
+          &:hover {
+            color: #1a1a1a;
+          }
+        }
+      }
+    }
+  }
+}

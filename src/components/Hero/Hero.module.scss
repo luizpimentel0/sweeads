@@ -1,0 +1,27 @@
+.hero {
+  color: var(--text-primary);
+
+  &-section {
+    &__title {
+      display: flex;
+      gap: 1rem;
+      align-items: center;
+    }
+
+    &__item {
+      width: 100%;
+      max-height: 300px;
+      border-radius: 8px;
+
+      overflow: hidden;
+      picture {
+        img {
+          border-radius: 16px;
+          display: block;
+          width: 100%;
+          height: auto;
+        }
+      }
+    }
+  }
+}
