@@ -8,7 +8,7 @@ export const Header = () => {
       <nav className={styles["header-nav"]}>
         <ul className={styles["header-nav__list"]}>
           <li>
-            <Link to="/">
+            <Link to="/doces">
               <span>Doces</span>
               <Candy size={20} />
             </Link>

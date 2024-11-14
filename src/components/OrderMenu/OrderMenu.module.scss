@@ -9,6 +9,14 @@
 
   &__content {
     min-height: 300px;
+    nav {
+      & > .item {
+        margin-right: 1rem;
+        text-decoration: none;
+        text-decoration: underline;
+        color: var(--text-primary);
+      }
+    }
   }
 
   &__item {
