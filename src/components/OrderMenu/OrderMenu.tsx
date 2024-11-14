@@ -14,6 +14,7 @@ export const OrderMenu = () => {
         <Routes>
           <Route path="/" element={<Candy />} />
           <Route path="/salgados" element={<h1>Salgados</h1>} />
+          <Route path="/salgados/salgado-1" element={<h1>Salgado 1</h1>} />
         </Routes>
       </div>
     </section>
