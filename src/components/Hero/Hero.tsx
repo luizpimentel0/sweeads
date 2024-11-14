@@ -16,7 +16,7 @@ export const Hero = () => {
           </p>
 
           <picture>
-            <img src="/public/hero-image.webp" alt="Padaria" />
+            <img src="/public/images/hero-image.webp" alt="Padaria" />
           </picture>
         </div>
       </section>
